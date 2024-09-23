@@ -12,7 +12,7 @@ import com.bookStore.repository.BookRepository;
 public class BookService {
 
 	@Autowired
-	private BookRepository bRepo;
+	private BookRepository bRepo; 
 	public void save(Book b) {
 		bRepo.save(b);
 	}
